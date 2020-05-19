@@ -8,10 +8,10 @@
     <version>2.0.3.RELEASE</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
-  <groupId>com.smc</groupId>
-  <artifactId>smcexchange</artifactId>
+  <groupId>com.fsd</groupId>
+  <artifactId>fsdexchange</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>smcexchange</name>
+  <name>fsdexchange</name>
   <description>Demo project for Spring Boot</description>
 
   <properties>

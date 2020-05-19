@@ -1,9 +1,5 @@
 package com.fsd;
 
-// import com.smc.entity.StockExchangeEntity;
-// import com.smc.service.ExchangeService;
-// import org.junit.jupiter.api.Test;
-// import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.junit.Ignore;
 import org.junit.runner.RunWith;

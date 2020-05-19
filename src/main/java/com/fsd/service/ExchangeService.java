@@ -18,14 +18,6 @@ public class ExchangeService {
 	@Autowired
 	private ExchangeRepository exchangeRepository;
 
-	/**
-	 * Description: query all exchange.
-	 *
-	 * @param:
-	 * @return: com.smc.utils.CommonResult
-	 * @auther: Liker
-	 * @date: 2019/12/04 10:39
-	 */
 	public CommonResult save(StockExchangeEntity stockExchange) {
 		try {
 			exchangeRepository.save(stockExchange);
@@ -36,14 +28,7 @@ public class ExchangeService {
 		}
 	}
 
-	/**
-	 * Description: update StockExchange detail
-	 *
-	 * @param:
-	 * @return: com.smc.utils.CommonResult
-	 * @auther: Liker
-	 * @date: 2019/12/04 10:39
-	 */
+
 	public CommonResult updateStockExchange(StockExchangeEntity stcokExchange) {
 		try {
 			StockExchangeEntity oldExchange = exchangeRepository.findById(stcokExchange.getExchangeid()).get();
